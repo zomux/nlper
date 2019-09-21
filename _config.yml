@@ -13,7 +13,7 @@ baseurl:          /
 
 author:
   name:           'Raphael Shu'
-  url:            https://twitter.com/raphaelshu
+  url:            https://twitter.com/raphaelshu 
 
 paginate:         5
 
