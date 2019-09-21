@@ -6,14 +6,14 @@ permalink:        pretty
 
 # Setup
 title:            NLPer
-tagline:          'NLP & ML'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
+tagline:          'Natural Language Processing and Machine Learning'
+description:      'Natural Language Processing and Machine Learning. Made by <a href="https://twitter.com/raphaelshu" target="_blank">@raphaelshu</a>.'
+url:              http://nlper.com
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Raphael Shu'
+  url:            https://twitter.com/raphaelshu
 
 paginate:         5
 
@@ -21,4 +21,4 @@ paginate:         5
 version:          2.1.0
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/zomux
