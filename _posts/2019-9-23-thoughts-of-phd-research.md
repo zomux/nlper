@@ -32,4 +32,3 @@ Another possible scenario is that you are setting a goal way too big for a PhD s
 
 
 Hope these thoughts can help new students in this field and I'm willing to write more based on my experience.
-
