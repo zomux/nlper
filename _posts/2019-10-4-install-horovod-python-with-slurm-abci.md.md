@@ -16,10 +16,17 @@ source $HOME/base/bin/activate
 
 Install PyTorch
 ```bash
+pip install numpy
+pip install torch==0.4.1
+```
 
+Install horovod with NCCL support and a higher version of g++
+```bash
+CC=/apps/gcc/7.3.0/bin/gcc CXX=/apps/gcc/7.3.0/bin/g++ HOROVOD_GPU_ALLREDUCE=NCCL HOROVOD_NCCL_HOME=/apps/nccl/2.4.8-1/cuda10.0/lib pip install horovod
+```
 
-
+To test whether the horovod works or not, let's make a simple script 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAzMDk1ODMyLC0zMzg4NzY3MTddfQ==
+eyJoaXN0b3J5IjpbLTExMjY1MjQ2NzMsLTMzODg3NjcxN119
 -->
