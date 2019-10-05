@@ -39,7 +39,13 @@ print(
 )
 ```
 
+The launch the job, make a script like this:
+
+```bash
+
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDk4ODY1LC0zMzg4NzY3MTddfQ==
+eyJoaXN0b3J5IjpbMTM4Nzg2MzQ0NiwtMTQwOTg4NjUsLTMzOD
+g3NjcxN119
 -->
