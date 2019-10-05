@@ -25,8 +25,21 @@ Install horovod with NCCL support and a higher version of g++
 CC=/apps/gcc/7.3.0/bin/gcc CXX=/apps/gcc/7.3.0/bin/g++ HOROVOD_GPU_ALLREDUCE=NCCL HOROVOD_NCCL_HOME=/apps/nccl/2.4.8-1/cuda10.0/lib pip install horovod
 ```
 
-To test whether the horovod works or not, let's make a simple script 
+To test whether the horovod works or not, let's make a simple script named `hvd_test.py` .
+
+```python
+import horovod.torch as hvd
+import torch
+hvd.init()
+print(
+	"size=", hvd.size(),
+	"global_rank=", hvd.rank(),
+	"local_rank=", hvd.local_rank(),
+	"device=", torch.cuda.get_device_name(hvd.local_rank())
+)
+```
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjY1MjQ2NzMsLTMzODg3NjcxN119
+eyJoaXN0b3J5IjpbLTE0MDk4ODY1LC0zMzg4NzY3MTddfQ==
 -->
