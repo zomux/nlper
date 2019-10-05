@@ -17,7 +17,7 @@ source $HOME/base/bin/activate
 Install PyTorch
 ```bash
 pip install numpy
-pip install torch==0.4.1
+pip install torch
 ```
 
 Install horovod with NCCL support and a higher version of g++
@@ -72,6 +72,6 @@ cat hvd_test.stdout
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDUxNjc2MDQsLTE0MDk4ODY1LC0zMz
-g4NzY3MTddfQ==
+eyJoaXN0b3J5IjpbLTk5MDA3MzY5LC0xMDQ1MTY3NjA0LC0xND
+A5ODg2NSwtMzM4ODc2NzE3XX0=
 -->
