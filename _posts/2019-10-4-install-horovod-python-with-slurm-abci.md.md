@@ -66,9 +66,12 @@ Launch the job with
 qsub -g group_name -l rt_F=2 hvd_job.sh
 ```
 
-
+After the job is executed, you can check the output by
+```bash
+cat hvd_test.stdout
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMDg2NTQ4OSwtMTQwOTg4NjUsLTMzOD
-g3NjcxN119
+eyJoaXN0b3J5IjpbLTEwNDUxNjc2MDQsLTE0MDk4ODY1LC0zMz
+g4NzY3MTddfQ==
 -->
