@@ -42,10 +42,27 @@ print(
 The launch the job, make a script like this:
 
 ```bash
+#!/bin/bash
 
+source /etc/profile.d/modules.sh
+module load cuda/10.0/10.0.130 cudnn/7.6/7.6.4 nccl/2.4/2.4.8-1 python/3.6/3.6.5 openmpi/2.1.6
+source $HOME/base/bin/activate
+
+NUM_NODES=${NHOSTS}
+NUM_GPUS_PER_NODE=4
+NUM_GPUS_PER_SOCKET=$(expr ${NUM_GPUS_PER_NODE} / 2)
+NUM_PROCS=$(expr ${NUM_NODES} \* ${NUM_GPUS_PER_NODE})
+
+LD_LIBRARY_PATH=/apps/gcc/7.3.0/lib64:$LD_LIBRARY_PATH
+
+mpirun -np $NUM_PROCS --map-by ppr:${NUM_GPUS_PER_SOCKET}:socket \
+--mca mpi_warn_on_fork 0 -x PATH -x LD_LIBRARY_PATH \
+python hvd_test.py > hvd_test.stdout
 ```
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4Nzg2MzQ0NiwtMTQwOTg4NjUsLTMzOD
+eyJoaXN0b3J5IjpbMTA5NDk0MzQxMSwtMTQwOTg4NjUsLTMzOD
 g3NjcxN119
 -->
