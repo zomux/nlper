@@ -39,7 +39,7 @@ print(
 )
 ```
 
-The launch the job, make a script like this:
+The launch the job, make a script `hvd_job.sh` like this:
 
 ```bash
 #!/bin/bash
@@ -60,9 +60,15 @@ mpirun -np $NUM_PROCS --map-by ppr:${NUM_GPUS_PER_SOCKET}:socket \
 python hvd_test.py > hvd_test.stdout
 ```
 
+Launch the job with
+
+```
+qsub -g group_name -l rt_F=2 hvd_job.sh
+```
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NDk0MzQxMSwtMTQwOTg4NjUsLTMzOD
+eyJoaXN0b3J5IjpbMTkzMDg2NTQ4OSwtMTQwOTg4NjUsLTMzOD
 g3NjcxN119
 -->
