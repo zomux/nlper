@@ -1,7 +1,9 @@
 ---
 layout: post
-title: Thoughts of PhD research
+title: Install horovod for PyTorch to work with slurm on ABCI
 ---
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1OTY2Nzk5Nl19
+eyJoaXN0b3J5IjpbMTMwNTU0MTg0N119
 -->
