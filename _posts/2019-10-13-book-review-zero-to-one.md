@@ -33,7 +33,7 @@ To successfully run a startup, the founders have to consider seven factors: 1) s
 	- Balanced ownership, position and control
 	- Question who owns the company, who runs it, who governs it
 - Distribution
-	- Think how to sell to customers and employees
+	- Think how to sell to customers
 - Durability
 	- How the business can grow and endure, generating long-term cash flow
 	- Companies are valued by future cash flow
@@ -73,7 +73,7 @@ To successfully run a startup, the founders have to consider seven factors: 1) s
 - They failed to answer the seven key questions
 - Tesla wins as it has the monopoly
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNDk5MTMxMiwxNjI4ODIwNDQ0LC0xMz
-k0NTY1NzA1LC00OTY3Mzc3ODMsLTQ1MTg2NzYyNywtMjU4OTQx
-MTMzXX0=
+eyJoaXN0b3J5IjpbLTE5MjkzNTY0OTIsMTYyODgyMDQ0NCwtMT
+M5NDU2NTcwNSwtNDk2NzM3NzgzLC00NTE4Njc2MjcsLTI1ODk0
+MTEzM119
 -->
