@@ -26,9 +26,10 @@ Key Message: To successfully run a startup, the founders have to consider seven 
 	- Gain monopoly in small markets is important
 	- Facebook started as a social website in Stanford
 - Right management team
-	- Right people for right positions
+	- Choosing founders are like marrying people
 	- Balanced ownership, position and control
-	- Question who owns the company, who runs it, who 
+	- Question who owns the company, who runs it, who governs it
+	- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTAzMjEwODFdfQ==
+eyJoaXN0b3J5IjpbLTEzODAyOTEyNF19
 -->
