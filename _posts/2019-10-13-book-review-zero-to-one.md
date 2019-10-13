@@ -58,12 +58,12 @@ Key Message: To successfully run a startup, the founders have to consider seven 
 - Make sure people commit full-time
 - Stock option is better than cash
 - Either on bus of off the bus
-- Great people join because of the vision and reward of commitment
+- Great people join because of the *mission* and *team*
 
 **How to build the board**
 
 - A board of three is health for private companies
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzI3NDk0NTddfQ==
+eyJoaXN0b3J5IjpbMTkxNzc1ODQwNV19
 -->
