@@ -60,7 +60,7 @@ To successfully run a startup, the founders have to consider seven factors: 1) s
 
 - Make sure people commit full-time
 - Stock option is better than cash
-- Either on bus of off the bus
+- Either on bus or off the bus
 - Great people join because of the *mission* and *team* (not cash and stocks)
 
 **How to build the board**
@@ -73,6 +73,7 @@ To successfully run a startup, the founders have to consider seven factors: 1) s
 - They failed to answer the seven key questions
 - Tesla wins as it has the monopoly
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyODgyMDQ0NCwtMTM5NDU2NTcwNSwtND
-k2NzM3NzgzLC00NTE4Njc2MjcsLTI1ODk0MTEzM119
+eyJoaXN0b3J5IjpbMTgyNDk5MTMxMiwxNjI4ODIwNDQ0LC0xMz
+k0NTY1NzA1LC00OTY3Mzc3ODMsLTQ1MTg2NzYyNywtMjU4OTQx
+MTMzXX0=
 -->
