@@ -11,7 +11,7 @@ Peter Thiel is the CEO of PayPal, provided funding for LinkedIn, Yelp, partner o
 
 ### No time-wasting book review
 
-Key Message: 
+Key Message: To successfully run a startup, the founders have to consider seven factors: 1. tech breakthrough, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MjU3NjczNl19
+eyJoaXN0b3J5IjpbLTE2MzE5MjEyNTBdfQ==
 -->
