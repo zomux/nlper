@@ -11,7 +11,7 @@ Peter Thiel is the CEO of PayPal, provided funding for LinkedIn, Yelp, partner o
 
 ### No time-wasting book review
 
-
+Key Message: 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNTQwOTUyOF19
+eyJoaXN0b3J5IjpbLTY3MjU3NjczNl19
 -->
