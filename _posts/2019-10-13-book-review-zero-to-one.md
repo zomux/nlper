@@ -21,7 +21,11 @@ Key Message: To successfully run a startup, the founders have to consider seven 
 	- Customers don't buy incremental improvements
 	- Make sure you get 10X improvement
 - Timing
-	- 
+	- Choose the right time to join the competition
+- Monopoly
+	- Gain monopoly in small markets is important
+	- Facebook started as a social website in Stanford
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDE1ODkwNzZdfQ==
+eyJoaXN0b3J5IjpbMTczMzkyMjQ0Ml19
 -->
