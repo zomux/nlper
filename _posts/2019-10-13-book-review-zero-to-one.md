@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Book Review: Zero to One
+title: [Book Review] Zero to One: Notes on Startups, or How to Build the Future
 ---
 
 ### Zero to One: Notes on Startups, or How to Build the Future
@@ -52,6 +52,7 @@ Key Message: To successfully run a startup, the founders have to consider seven 
 
 - Lean startup is a methodology that takes you to a local optimum
 - However, the power law focuses on exponential growth
+- Plan the blueprint of growth. Company sell shares and merge because they don't know what to do.
 
 **How to recruit people**
 
@@ -70,5 +71,5 @@ Key Message: To successfully run a startup, the founders have to consider seven 
 - They failed to answer the seven key questions
 - Tesla wins as it has the monopoly
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTk1MDg3ODhdfQ==
+eyJoaXN0b3J5IjpbLTI1ODk0MTEzM119
 -->
