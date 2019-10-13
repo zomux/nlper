@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Book Review | Zero to One: Notes on Startups, or How to Build the Future
+title: Book Review: Zero to One, Notes on Startups, or How to Build the Future
 ---
 
 ### Zero to One: Notes on Startups, or How to Build the Future
@@ -71,6 +71,6 @@ Key Message: To successfully run a startup, the founders have to consider seven 
 - They failed to answer the seven key questions
 - Tesla wins as it has the monopoly
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM5MzA5NjYzLC00NTE4Njc2MjcsLTI1OD
-k0MTEzM119
+eyJoaXN0b3J5IjpbLTE1MjkxMzM3MzMsLTQ1MTg2NzYyNywtMj
+U4OTQxMTMzXX0=
 -->
