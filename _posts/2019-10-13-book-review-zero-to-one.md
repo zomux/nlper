@@ -58,12 +58,17 @@ Key Message: To successfully run a startup, the founders have to consider seven 
 - Make sure people commit full-time
 - Stock option is better than cash
 - Either on bus of off the bus
-- Great people join because of the *mission* and *team*
+- Great people join because of the *mission* and *team* (not cash and stocks)
 
 **How to build the board**
 
 - A board of three is health for private companies
-- 
+
+
+**Thoughts on clean tech bubble**
+
+- They failed to answer the seven key questions
+- Tesla wins as it has the monopoly
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNzc1ODQwNV19
+eyJoaXN0b3J5IjpbLTE3MTk1MDg3ODhdfQ==
 -->
