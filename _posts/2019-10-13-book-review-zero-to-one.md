@@ -11,7 +11,11 @@ Peter Thiel is the CEO of PayPal, provided funding for LinkedIn, Yelp, partner o
 
 ### No time-wasting book review
 
-Key Message: To successfully run a startup, the founders have to consider seven factors: 1) significant tech breakthrough 2) timing 3) monopoly in small markets 4) management team 
+Key Message: To successfully run a startup, the founders have to consider seven factors: 1) significant tech breakthrough 2) timing 3) monopoly in small markets 4) right management team 5) effective distribution of products 6) durability of continuous monopoly 7) uniqueness
+
+### Main Points
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNjEyMjEzNl19
+eyJoaXN0b3J5IjpbLTYwNzk4Njc0OF19
 -->
