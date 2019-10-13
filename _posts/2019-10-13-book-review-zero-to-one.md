@@ -17,8 +17,11 @@ Key Message: To successfully run a startup, the founders have to consider seven 
 
 **Seven keys**
 
-- breakthrough
-	- Custoincremental improvement
+- Tech breakthrough
+	- Customers don't buy incremental improvements
+	- Make sure you get 10X improvement
+- Timing
+	- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTM3Mjc1OF19
+eyJoaXN0b3J5IjpbLTE2MDE1ODkwNzZdfQ==
 -->
