@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Book Review Zero to One
+title: Book Review Zero to One, Notes on Startups, or How to Build the Future
 ---
 
 ### Zero to One: Notes on Startups, or How to Build the Future
@@ -73,6 +73,6 @@ To successfully run a startup, the founders have to consider seven factors: 1) s
 - They failed to answer the seven key questions
 - Tesla wins as it has the monopoly
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExODYxNzQyMywtNDk2NzM3NzgzLC0xMz
+eyJoaXN0b3J5IjpbLTQ5NjczNzc4MywtNDk2NzM3NzgzLC0xMz
 k0NTY1NzA1LC00NTE4Njc2MjcsLTI1ODk0MTEzM119
 -->
