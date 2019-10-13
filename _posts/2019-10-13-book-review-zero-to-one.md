@@ -7,6 +7,7 @@ title: Book Review: Zero to One
 
 Authors: Peter Thiel, Blake Masters
 
+Peter Thiel is the CEO of PayPal, provided funding for LinkedIn, Yelp, parterner 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MjI4NzA5MF19
+eyJoaXN0b3J5IjpbLTMwNDUwMzE3OF19
 -->
