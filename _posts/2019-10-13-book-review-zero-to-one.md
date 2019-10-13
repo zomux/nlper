@@ -29,7 +29,12 @@ Key Message: To successfully run a startup, the founders have to consider seven 
 	- Choosing founders are like marrying people
 	- Balanced ownership, position and control
 	- Question who owns the company, who runs it, who governs it
-	- 
+- Distribution
+	- Think how to sell to customers and employees
+- Durability
+	- How the business can generate long-term cash flow
+- Uniqueness
+	- Don't just another interetn
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODAyOTEyNF19
+eyJoaXN0b3J5IjpbMTAyMjU3MDk2OV19
 -->
