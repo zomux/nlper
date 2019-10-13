@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Install horovod for PyTorch to work with slurm on ABCI
+title: Book Review: Zero to One
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk2NzA3NDUxXX0=
+eyJoaXN0b3J5IjpbMTE4NTA2NTcxMF19
 -->
