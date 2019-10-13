@@ -24,7 +24,7 @@ Key Message: To successfully run a startup, the founders have to consider seven 
 	- Choose the right time to join the competition
 	- Last mover advantage: the last development to productize the tech is more important than the first development
 - Monopoly
-	- Gain monopoly in small markets is important for high profit
+	- Gain monopoly in small markets with big share is important for high profit
 	- Facebook started as a social website in Stanford
 - Right management team
 	- Choosing founders are like marrying people
@@ -41,7 +41,17 @@ Key Message: To successfully run a startup, the founders have to consider seven 
 **Thoughts on competition**
 
 - Competition drives down the growth and profit space
-- So, better
+- So, better to build monopoly in a small market
+	- With much better tech
+	- With network effects
+	- Then scale it
+	- Then do some branding
+
+
+**Thoughts on lean startups**
+
+- Lean startup is a methodology that takes you to a local optimum
+- However,
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MzYzMDMyMV19
+eyJoaXN0b3J5IjpbOTQyOTg1NDddfQ==
 -->
