@@ -51,7 +51,14 @@ Key Message: To successfully run a startup, the founders have to consider seven 
 **Thoughts on lean startups**
 
 - Lean startup is a methodology that takes you to a local optimum
-- However,
+- However, the power law focuses on exponential growth
+
+**How to recruit people**
+
+- Make sure people commit full-time
+- Stock option is better than cash
+- Whether on bus of off the bus
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQyOTg1NDddfQ==
+eyJoaXN0b3J5IjpbLTU3MTc0ODcxOF19
 -->
