@@ -84,8 +84,8 @@ The second half is what we call [Kullback–Leibler divergence](https://en.wikip
 
 $$\log p(x) \ge \mathbb{E}_{z \sim q(z|x)}[ \log p(x|z)] - \mathrm{KL}(q(z|x) | p(z)).$$
 
-
+Anyway, the good news is that when both $q(z|x)$ and $p(z)$ are Gaussians, the 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NjM0ODAwNCwtNTI1NjM2MzE3LC0xMD
+eyJoaXN0b3J5IjpbMTg3MzQ3ODE4NSwtNTI1NjM2MzE3LC0xMD
 I4MDk5MDg2XX0=
 -->
