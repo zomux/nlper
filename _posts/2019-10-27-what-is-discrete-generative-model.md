@@ -30,10 +30,10 @@ So, because the probability distribution $p(x)$ try to capture the generation pr
 
 $$\mathop{\mathrm{argmax}}\limits_\theta \log p(x=x_d;\theta) $$
 
-Wait, there is a problem, the model now only has the output $x$, but no input is provided.  So are we going to create something to map nothing to $x$ ? 
+Wait, there is a problem, the model now only has the output $x$, but no input is provided. For example, it $x$ is an image, then we are basically predicting all the pixels in the image. So are we going to create a model that maps nothing to $x$ ? U
 
 ![variables](https://i.imgur.com/A8nKrSp.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzg0NDYzMCwtNTI1NjM2MzE3LC0xMD
+eyJoaXN0b3J5IjpbMTE5MzY0MDgyOCwtNTI1NjM2MzE3LC0xMD
 I4MDk5MDg2XX0=
 -->
