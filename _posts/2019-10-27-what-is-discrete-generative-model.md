@@ -74,8 +74,8 @@ Oh, multiplication and division in logarithm, let's decompose them:
 
 $$\log p(x) \ge \mathbb{E}_{z \sim q(z|x)}[ \log p(x|z) + \log p(z) - \log q(x|z)].$$
 
-OMG, we just find that two probabilistic distributions $q(z|x)$ and $p(x|z)$ are just 
+OMG, we just find that two probabilistic distributions $q(z|x)$ and $p(x|z)$ are mapping something to something just like our discriminative model, and certainly, we can create such models. $p(z)$ is just the prior distribution of the latent variable, let just set it to be a standard Gaussian $p(z) = N(0,1)$. Cool
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNTA2ODI0NCwtNTI1NjM2MzE3LC0xMD
-I4MDk5MDg2XX0=
+eyJoaXN0b3J5IjpbLTk4OTQyMTk3LC01MjU2MzYzMTcsLTEwMj
+gwOTkwODZdfQ==
 -->
