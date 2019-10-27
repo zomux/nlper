@@ -103,13 +103,10 @@ But, when $q(z\vert x)$ is complicated, it can't have a shape close to the prior
 
 Oh,  I see. The left part and right part are basically fighting with each other. To summarize two scenarios, check this table:
 
-| $q(z \vert x)$ | Reconstruction  |  - KL |
-|--|--|--|
-| Complicated  | high| low |
-| Simple | low | high |
+<p><img src="https://imgur.com/1msBc4Y.png" width="80%" style="margin:auto;" /></p>
 
 In next posts, we are going to discuss how to train generative models with neural networks and back-propagation. And we will further discuss the situation when $z$ is a discrete latent variable.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMzk4NzIxOSwtMTk5NjExNzE4Niw1Mz
-IxNTEwMjgsLTM2MDM4MjIwMV19
+eyJoaXN0b3J5IjpbMjE3MTEwNDkwLDE3MTM5ODcyMTksLTE5OT
+YxMTcxODYsNTMyMTUxMDI4LC0zNjAzODIyMDFdfQ==
 -->
