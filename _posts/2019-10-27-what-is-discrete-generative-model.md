@@ -102,13 +102,13 @@ But, when $q(z|x)$ is complicated, it can't have a shape close to the prior. Rem
 
 Oh,  I see. The left part and right part are basically fighting with each other. To summarize two scenarios, check this table:
 
-| Input  | Output (label) |
-|--|--|
-| Image  | Whether it's a animal (1 or 0)  |
-| Email | Whether it's a spam (1 or 0) |
-| A sentence | Next word in the sentence (a word) |
-| Voice record | Text (word sequence) |
+| $q(z \vert x)$ | Reconstruction  |  - KL |
+|--|--|--|
+| Complicated  | high| low |
+| Simple | low | high |
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTg3NzEwMzUsLTUyNTYzNjMxNywtMT
-AyODA5OTA4Nl19
+eyJoaXN0b3J5IjpbNzY0OTU5MjI5LC01MjU2MzYzMTcsLTEwMj
+gwOTkwODZdfQ==
 -->
