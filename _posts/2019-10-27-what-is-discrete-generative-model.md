@@ -20,12 +20,14 @@ The training objective given a datapoint $(x_d,y_d)$ is that we want to maximize
 
 $$ \mathop{\mathrm{argmax}}\limits_\theta \log p(y=y_d|x=x_d;\theta) $$
 
-Here, we use the logarithm because given multiple datapoints, we can do a summarization on the log-likelihoods instead of production. 
+Here, we use the logarithm because given multiple datapoints, we can do a summarization on the log-likelihoods instead of production. $\theta$ is the parameter of our model, it may be the parameters of a neural network.
 
 ### Generative model
 
+Now as we know the discriminative model and how to train it. We move on to the generative model. In generative model, instead of the output label, we want to know the probability of the in
+
 ![variables](https://i.imgur.com/A8nKrSp.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NzMyNzQ5OSwtNTI1NjM2MzE3LC0xMD
-I4MDk5MDg2XX0=
+eyJoaXN0b3J5IjpbNzQ3NTE5NDg0LC01MjU2MzYzMTcsLTEwMj
+gwOTkwODZdfQ==
 -->
