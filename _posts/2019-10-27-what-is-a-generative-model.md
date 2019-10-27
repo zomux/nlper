@@ -36,7 +36,7 @@ Wait, there is a problem, the model now only has the output $x$, but no input is
 But, the good thing is that we know how to compute a lower-bound of the log-likelihood by introducing another variable $z$. We call it a latent variable, and the probability of $x$ depends on $z$ as illustrated in the diagram. 
 
 
-![variables](https://i.imgur.com/A8nKrSp.png)
+<img src="https://i.imgur.com/A8nKrSp.png" witdh="60" />
 
 When we translate this assumption into equations, it will be
 
@@ -99,7 +99,7 @@ $$\mathop{\mathrm{argmax}}\limits_{\theta, \phi} \mathrm{ELBO}(x;\theta, \phi) $
 
 The left part of the ELBO $\mathbb{E}_{z \sim q(z\vert x;\phi)}[ \log p(x\vert z;\theta)]$  basically says that if we sample a $z$ from $q(z\vert x)$, can we really reconstruct the original $x$ with $p(x\vert z)$ ? So, this is a reconstruction objective. Of course, when q(z\vert x) is a complicated distribution, then $z$ can carry more information from $x$, so the reconstruction objective can be higher.
 
-But, when $q(z\vert x)$ is complicated, it can't have a shape close to the prior. Remember,  the prior $p(z)$ is just a standard Gaussian. So the right part $\mathrm{KL}(q(z\vert x;\phi) | p(z))$ will output a high value to punish the ELBO when q is complicated.
+But, when $q(z\vert x)$ is complicated, it can't have a shape close to the prior. Remember,  the prior $p(z)$ is just a standard Gaussian. So the right part $\mathrm{KL}(q(z\vert x;\phi) \vert p(z))$ will output a high value to punish the ELBO when q is complicated.
 
 Oh,  I see. The left part and right part are basically fighting with each other. To summarize two scenarios, check this table:
 
@@ -110,6 +110,6 @@ Oh,  I see. The left part and right part are basically fighting with each other.
 
 In next posts, we are going to discuss how to train generative models with neural networks and back-propagation. And we will further discuss the situation when $z$ is a discrete latent variable.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTY4OTQxMTgsNTMyMTUxMDI4LC0zNj
+eyJoaXN0b3J5IjpbLTE3MzM2OTU5MDYsNTMyMTUxMDI4LC0zNj
 AzODIyMDFdfQ==
 -->
