@@ -50,7 +50,11 @@ This is easy to understand. Let's say our mail is $x=\text{``Amazing discount"}$
 $$ p(x=\text{``Amazing discount"}) \\
 = p(x=\text{``Amazing discount"}, z=\text{``spam"})  \\
    +p(x=\text{``Amazing discount"}, z=\text{``not spam"})$$
+
+Next, we introduce a Q distribution, which makes the equation:
+
+$$\log \int p(x,z) dz = \log \int q(z|x) \frac{p(x,z)}{q} dz.$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2Njg2ODg3MSwtNTI1NjM2MzE3LC0xMD
-I4MDk5MDg2XX0=
+eyJoaXN0b3J5IjpbNTE3NjI2MDYwLC01MjU2MzYzMTcsLTEwMj
+gwOTkwODZdfQ==
 -->
