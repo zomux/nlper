@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: What is A Generative Model and How to Learn It
@@ -111,5 +110,5 @@ Oh,  I see. The left part and right part are basically fighting with each other.
 
 In next posts, we are going to discuss how to train generative models with neural networks and back-propagation. And we will further discuss the situation when $z$ is a discrete latent variable.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDkwNjY5NzQsLTM2MDM4MjIwMV19
+eyJoaXN0b3J5IjpbNTMyMTUxMDI4LC0zNjAzODIyMDFdfQ==
 -->
