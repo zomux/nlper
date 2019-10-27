@@ -32,16 +32,21 @@ $$\mathop{\mathrm{argmax}}\limits_\theta \log p(x=x_d;\theta) $$
 
 Wait, there is a problem, the model now only has the output $x$, but no input is provided. For example, it $x$ is an image, then we are basically predicting all the pixels in the image. So are we going to create a model that maps nothing to $x$ ? Hmm, we have no idea on how to compute such a model and it's log-likelihood.
 
-But, the good thing is that we know how to compute a lower-bound of the log-likelihood by introducing another variable $z$. We call it a latent variable, and the probability of $y$ depends on $z$. When we translate this assumption into equations, it will be
+But, the good thing is that we know how to compute a lower-bound of the log-likelihood by introducing another variable $z$. We call it a latent variable, and the probability of $x$ depends on $z$ as illustrated in the diagram. 
 
-$$p(y,z) = p(y|z) p(z).$$
-
-Simple, right? Then, let's do some surgeries to the log-likelihood. W
-
-$$\log p(x) = \log $$
 
 ![variables](https://i.imgur.com/A8nKrSp.png)
+
+When we translate this assumption into equations, it will be
+
+$$p(x,z) = p(x|z) p(z).$$
+
+Simple, right? Then, let's do some surgeries to the log-likelihood. We first marginalize w.r.t. $z$:
+
+$$\log p(x) = \log \int p(x,z) dz.$$
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE3Mzc3MTE3LC01MjU2MzYzMTcsLTEwMj
-gwOTkwODZdfQ==
+eyJoaXN0b3J5IjpbLTY2MTQ0NDQ3MywtNTI1NjM2MzE3LC0xMD
+I4MDk5MDg2XX0=
 -->
