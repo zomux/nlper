@@ -57,7 +57,7 @@ $$\log \int p(x,z) dz = \log \int q(z|x) \frac{p(x,z)}{q(x|z)} dz.$$
 
 The template $\int q(z|x) ... dz$ is actually an expectation $\mathbb{E}_{z \sim q(z|x)}[...]$. So the equation can be written in
 
-$$\log p(x) = \log \mathbb{E}_{z \sim q(z|x)}[\frac{p(x,z)}{q(x|z)}].$$
+$$\log p(x) = \log \mathbb{E}_{z \sim q(z|x)}[\frac{p(x,z)}{q(z|x)}].$$
 
 Hmm, well, we still don't know how to compute this equation. Wait, can we use Jensen's inequality here? Remember that Jensen's inequality tells us
 
@@ -65,17 +65,23 @@ $$ \log \mathbb{E}[...]  \ge \mathbb{E}[\log  ...].$$
 
 The reason is because the logarithm is a convex function. And now we find a lower-bound of the log-likelihood:
 
-$$\log p(x) \ge \mathbb{E}_{z \sim q(z|x)}[ \log \frac{p(x,z)}{q(x|z)}].$$
+$$\log p(x) \ge \mathbb{E}_{z \sim q(z|x)}[ \log \frac{p(x,z)}{q(z|x)}].$$
 
 Remember our assumption $p(x,z) = p(x|z)p(z)$, we just plug it into the equation to make it
-$$\log p(x) \ge \mathbb{E}_{z \sim q(z|x)}[ \log \frac{p(x|z)p(z)}{q(x|z)}].$$
+$$\log p(x) \ge \mathbb{E}_{z \sim q(z|x)}[ \log \frac{p(x|z)p(z)}{q(z|x)}].$$
 
 Oh, multiplication and division in logarithm, let's decompose them:
 
-$$\log p(x) \ge \mathbb{E}_{z \sim q(z|x)}[ \log p(x|z) + \log p(z) - \log q(x|z)].$$
+$$\log p(x) \ge \mathbb{E}_{z \sim q(z|x)}[ \log p(x|z) + \log p(z) - \log q(z|x)].$$
 
-OMG, we just find that two probabilistic distributions $q(z|x)$ and $p(x|z)$ are mapping something to something just like our discriminative model, and certainly, we can create such models. $p(z)$ is just the prior distribution of the latent variable, let just set it to be a standard Gaussian $p(z) = N(0,1)$. Cool
+OMG, we just find that two probabilistic distributions $q(z|x)$ and $p(x|z)$ are mapping something to something just like our discriminative model, and certainly, we can create such models. $p(z)$ is just the prior distribution of the latent variable, let just set it to be a standard Gaussian $p(z) = N(0,1)$.
+
+Cool. Let's further clean up the equation:
+
+$$\log p(x) \ge \mathbb{E}_{z \sim q(z|x)}[ \log p(x|z)] + \mathbb{E}_{z \sim q(z|x)}[  \log p(z) - \log q(x|z)].$$
+
+The second half is what we call 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4OTQyMTk3LC01MjU2MzYzMTcsLTEwMj
-gwOTkwODZdfQ==
+eyJoaXN0b3J5IjpbLTE5NzAxOTU4OCwtNTI1NjM2MzE3LC0xMD
+I4MDk5MDg2XX0=
 -->
