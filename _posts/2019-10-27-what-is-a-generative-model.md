@@ -76,7 +76,7 @@ Oh, multiplication and division in logarithm, let's decompose them:
 
 $$\log p(x) \ge \mathbb{E}_{z \sim q(z\vert x)}[ \log p(x\vert z) + \log p(z) - \log q(z\vert x)].$$
 
-OMG, we just find that two probabilistic distributions $q(z\vert x)$ and $p(x\vert z)$ are mapping something to something just like our discriminative model, and certainly, we can create such models. $p(z)$ is just the prior distribution of the latent variable, let just set it to be a standard Gaussian $p(z) = N(0,1)$.
+OMG, we just find that two probabilistic distributions $q(z\vert x)$ and $p(x\vert z)$ are mapping something to something just like our discriminative model, and certainly, we can create such models. $p(z)$ is just the prior distribution of the latent variable, let's just set it to be a standard Gaussian $p(z) = N(0,1)$.
 
 Cool. Let's further clean up the equation:
 
@@ -108,7 +108,7 @@ Oh,  I see. The left part and right part are basically fighting with each other.
 
 In next posts, we are going to discuss how to train generative models with neural networks and back-propagation. And we will further discuss the situation when $z$ is a discrete latent variable.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzY5OTA0MTIsLTE1MzUzMDUyOTEsMj
-E3MTEwNDkwLDE3MTM5ODcyMTksLTE5OTYxMTcxODYsNTMyMTUx
-MDI4LC0zNjAzODIyMDFdfQ==
+eyJoaXN0b3J5IjpbMzIwODE1MDA4LC0xNTM1MzA1MjkxLDIxNz
+ExMDQ5MCwxNzEzOTg3MjE5LC0xOTk2MTE3MTg2LDUzMjE1MTAy
+OCwtMzYwMzgyMjAxXX0=
 -->
