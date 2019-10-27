@@ -86,10 +86,10 @@ $$\log p(x) \ge \mathbb{E}_{z \sim q(z|x)}[ \log p(x|z)] - \mathrm{KL}(q(z|x) | 
 
 Anyway, the good news is that when both $q(z|x)$ and $p(z)$ are Gaussians, the KL divergence can be analytically solved. If you are interested, take a look at this stackexchange post: https://stats.stackexchange.com/a/7449 .
 
-So, to compute the lower-bound, we just need to sample a $z$ from $q(z|x)$,  compute the left part $\mathbb{E}_{z \sim q(z|x)}[ \log p(x|z)]$ and the right part, which is KL divergence.
+So, to compute the lower-bound, we just need to sample a $z$ from $q(z|x)$,  compute the left part $\mathbb{E}_{z \sim q(z|x)}[ \log p(x|z)]$ and the right part, which is KL divergence. Because this conclusion is so important, we give the equation a name, we call it evidence lower-bound, or in short, ELBO. Suppose the two conditional distributions are parameterized by $\theta$ and $\$
 
 ### Understanding ELBO
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MDcyODc3LC01MjU2MzYzMTcsLTEwMj
-gwOTkwODZdfQ==
+eyJoaXN0b3J5IjpbMTcwMDA5NTI1OCwtNTI1NjM2MzE3LC0xMD
+I4MDk5MDg2XX0=
 -->
