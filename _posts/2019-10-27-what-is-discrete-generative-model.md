@@ -98,7 +98,7 @@ $$\mathop{\mathrm{argmax}}\limits_{\theta, \phi} \mathrm{ELBO}(x;\theta, \phi) $
 
 The left part of the ELBO $\mathbb{E}_{z \sim q(z|x;\phi)}[ \log p(x|z;\theta)]$  basically says that if we sample a $z$ from $q(z|x)$, can we really reconstruct the original $x$ with $p(x|z)$ ? So, this is a reconstruction objective. Of course, when q(z|x) is a complicated distribution, then $z$ can carry more information from $x$, so the reconstruction objective can be higher.
 
-But, when $q(z|x)$ is comp
+But, when $q(z|x)$ is complicated, it can't have a shape close to the prior. Remember,  the prior $p(z)$ is just a standard Gaussian. So the right part will 
 
 | Input  | Output (label) |
 |--|--|
@@ -107,6 +107,6 @@ But, when $q(z|x)$ is comp
 | A sentence | Next word in the sentence (a word) |
 | Voice record | Text (word sequence) |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNzQ0ODU0MSwtNTI1NjM2MzE3LC0xMD
+eyJoaXN0b3J5IjpbLTExNzQwMzg1NywtNTI1NjM2MzE3LC0xMD
 I4MDk5MDg2XX0=
 -->
