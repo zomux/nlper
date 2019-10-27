@@ -45,10 +45,12 @@ Simple, right? Then, let's do some surgeries to the log-likelihood. We first mar
 
 $$\log p(x) = \log \int p(x,z) dz.$$
 
-This is easy to understand. Let's say our mail is $x=\text{``Amazing discount"}$, the latent variable only has two cases: $z=\text{``spam"}$ and $z=\text{``not spam"}$. So the log probability of this mail is just
+This is easy to understand. Let's say our mail is $x=\text{``Amazing discount"}$, the latent variable only has two cases: $z=\text{``spam"}$ and $z=\text{``not spam"}$. So the probability of this mail is just
 
-$$ \log p(x=\text{``Amazing discount"}) = \log p(x=\text{``Amazing discount"}|z=\text{``spam"})$$
+$$ p(x=\text{``Amazing discount"}) \\
+= p(x=\text{``Amazing discount"}, z=\text{``spam"})  \\
+   +p(x=\text{``Amazing discount"}, z=\text{``not spam"})$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNTQwMzcyNSwtNTI1NjM2MzE3LC0xMD
+eyJoaXN0b3J5IjpbLTY2Njg2ODg3MSwtNTI1NjM2MzE3LC0xMD
 I4MDk5MDg2XX0=
 -->
