@@ -30,10 +30,10 @@ So, because the probability distribution $p(x)$ try to capture the generation pr
 
 $$\mathop{\mathrm{argmax}}\limits_\theta \log p(x=x_d;\theta) $$
 
-Wait
+Wait, there is a problem, the model now only has the output ($x$)
 
 ![variables](https://i.imgur.com/A8nKrSp.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NTQxNTU5MiwtNTI1NjM2MzE3LC0xMD
+eyJoaXN0b3J5IjpbMTExMDI1MTExNSwtNTI1NjM2MzE3LC0xMD
 I4MDk5MDg2XX0=
 -->
