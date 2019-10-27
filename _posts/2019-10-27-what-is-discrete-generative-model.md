@@ -57,11 +57,13 @@ $$\log \int p(x,z) dz = \log \int q(z|x) \frac{p(x,z)}{q(x|z)} dz.$$
 
 The template $\int q(z|x) ... dz$ is actually an expectation $\mathbb{E}_{z \sim q(z|x)}[...]$. So the equation can be written in
 
-$$\log \mathbb{E}_{z \sim q(z|x)}[\frac{p(x,z)}{q(x|z)}].$$
+$$\log p(x) = \log \mathbb{E}_{z \sim q(z|x)}[\frac{p(x,z)}{q(x|z)}].$$
 
+Hmm, well, we still don't know how to compute this equation. Wait, can we use Jensen's inequality here? Remember that Jensen's inequality tells
 
+$$ \mathbb{E}_{z \sim q(z|x)}[\frac{p(x,z)}{q(x|z)}] $$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTI1Mjg4OTAsLTUyNTYzNjMxNywtMT
-AyODA5OTA4Nl19
+eyJoaXN0b3J5IjpbMTA2NzcyMzc0LC01MjU2MzYzMTcsLTEwMj
+gwOTkwODZdfQ==
 -->
