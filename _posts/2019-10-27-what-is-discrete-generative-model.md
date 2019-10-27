@@ -84,8 +84,10 @@ The second half is what we call [Kullback–Leibler divergence](https://en.wikip
 
 $$\log p(x) \ge \mathbb{E}_{z \sim q(z|x)}[ \log p(x|z)] - \mathrm{KL}(q(z|x) | p(z)).$$
 
-Anyway, the good news is that when both $q(z|x)$ and $p(z)$ are Gaussians, the 
+Anyway, the good news is that when both $q(z|x)$ and $p(z)$ are Gaussians, the KL divergence can be analytically solved. If you are interested, take a look at this stackexchange post: https://stats.stackexchange.com/a/7449 .
+
+So, to compute the lower-bound, we just need to sample a $z$ from $q(z|x)$, and compute 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MzQ3ODE4NSwtNTI1NjM2MzE3LC0xMD
-I4MDk5MDg2XX0=
+eyJoaXN0b3J5IjpbNTIzODU3NDEzLC01MjU2MzYzMTcsLTEwMj
+gwOTkwODZdfQ==
 -->
