@@ -59,11 +59,13 @@ The template $\int q(z|x) ... dz$ is actually an expectation $\mathbb{E}_{z \sim
 
 $$\log p(x) = \log \mathbb{E}_{z \sim q(z|x)}[\frac{p(x,z)}{q(x|z)}].$$
 
-Hmm, well, we still don't know how to compute this equation. Wait, can we use Jensen's inequality here? Remember that Jensen's inequality tells
+Hmm, well, we still don't know how to compute this equation. Wait, can we use Jensen's inequality here? Remember that Jensen's inequality tells us
 
-$$ \mathbb{E}_{z \sim q(z|x)}[\frac{p(x,z)}{q(x|z)}] $$
+$$ \log \mathbb{E}[...]  \ge \mathbb{E}[\log  ...].$$
+
+The reason is because the logarithm is a convex function. And now we find a lower-bound of the log
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NzcyMzc0LC01MjU2MzYzMTcsLTEwMj
-gwOTkwODZdfQ==
+eyJoaXN0b3J5IjpbLTI5NDg2MzYyOCwtNTI1NjM2MzE3LC0xMD
+I4MDk5MDg2XX0=
 -->
