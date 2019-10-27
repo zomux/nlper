@@ -32,10 +32,14 @@ $$\mathop{\mathrm{argmax}}\limits_\theta \log p(x=x_d;\theta) $$
 
 Wait, there is a problem, the model now only has the output $x$, but no input is provided. For example, it $x$ is an image, then we are basically predicting all the pixels in the image. So are we going to create a model that maps nothing to $x$ ? Hmm, we have no idea on how to compute such a model and it's log-likelihood.
 
-But, the good thing is that we know how to compute a lower-bound of the log-likelihood by introducing another variable $z$. We call it a latent variable, and the probablity o
+But, the good thing is that we know how to compute a lower-bound of the log-likelihood by introducing another variable $z$. We call it a latent variable, and the probability of $y$ depends on $z$. When we translate this assumption into equations, it will be
+
+$$p(y,z) = p(y|z) p(z).$$
+
+Simply,
 
 ![variables](https://i.imgur.com/A8nKrSp.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI4NjMxNzEyLC01MjU2MzYzMTcsLTEwMj
+eyJoaXN0b3J5IjpbMjAzNTA0MzI4LC01MjU2MzYzMTcsLTEwMj
 gwOTkwODZdfQ==
 -->
