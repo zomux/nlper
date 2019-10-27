@@ -68,10 +68,14 @@ The reason is because the logarithm is a convex function. And now we find a lowe
 $$\log p(x) \ge \mathbb{E}_{z \sim q(z|x)}[ \log \frac{p(x,z)}{q(x|z)}].$$
 
 Remember our assumption $p(x,z) = p(x|z)p(z)$, we just plug it into the equation to make it
-$$\log p(x) \ge \mathbb{E}_{z \sim q(z|x)}[ \log \frac{p(x,z)}{q(x|z)}].$$
+$$\log p(x) \ge \mathbb{E}_{z \sim q(z|x)}[ \log \frac{p(x|z)p(z)}{q(x|z)}].$$
+
+Oh, multiplication and division in logarithm, let's decompose them:
+
+$$\log p(x) \ge \mathbb{E}_{z \sim q(z|x)}[ \log p(x|z) + \log p(z) - \log q(x|z)].$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NjIyMzAxNSwtNTI1NjM2MzE3LC0xMD
+eyJoaXN0b3J5IjpbLTgzMDE1NDIyMywtNTI1NjM2MzE3LC0xMD
 I4MDk5MDg2XX0=
 -->
