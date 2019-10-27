@@ -98,7 +98,9 @@ $$\mathop{\mathrm{argmax}}\limits_{\theta, \phi} \mathrm{ELBO}(x;\theta, \phi) $
 
 The left part of the ELBO $\mathbb{E}_{z \sim q(z|x;\phi)}[ \log p(x|z;\theta)]$  basically says that if we sample a $z$ from $q(z|x)$, can we really reconstruct the original $x$ with $p(x|z)$ ? So, this is a reconstruction objective. Of course, when q(z|x) is a complicated distribution, then $z$ can carry more information from $x$, so the reconstruction objective can be higher.
 
-But, when $q(z|x)$ is complicated, it can't have a shape close to the prior. Remember,  the prior $p(z)$ is just a standard Gaussian. So the right part will 
+But, when $q(z|x)$ is complicated, it can't have a shape close to the prior. Remember,  the prior $p(z)$ is just a standard Gaussian. So the right part $\mathrm{KL}(q(z|x;\phi) | p(z))$ will output a high value to punish the ELBO when q is complicated.
+
+Oh,  I see. The left part and right part are basically fighting with each other. To summarize two scenarios, check this table:
 
 | Input  | Output (label) |
 |--|--|
@@ -107,6 +109,6 @@ But, when $q(z|x)$ is complicated, it can't have a shape close to the prior. Rem
 | A sentence | Next word in the sentence (a word) |
 | Voice record | Text (word sequence) |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzQwMzg1NywtNTI1NjM2MzE3LC0xMD
-I4MDk5MDg2XX0=
+eyJoaXN0b3J5IjpbLTE4OTg3NzEwMzUsLTUyNTYzNjMxNywtMT
+AyODA5OTA4Nl19
 -->
