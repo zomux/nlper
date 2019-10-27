@@ -98,7 +98,7 @@ $$\mathop{\mathrm{argmax}}\limits_{\theta, \phi} \mathrm{ELBO}(x;\theta, \phi) $
 
 ### Understanding ELBO
 
-The left part of the ELBO $\mathbb{E}_{z \sim q(z\vert x;\phi)}[ \log p(x\vert z;\theta)]$  basically says that if we sample a $z$ from $q(z\vert x)$, can we really reconstruct the original $x$ with $p(x\vert z)$ ? So, this is a reconstruction objective. Of course, when $q(z\vert x)$ is a complicated distribution, then $z$ can carry more information from $x$, so the reconstruction objective can be higher.
+The left part of the ELBO $\mathbb{E}_{z \sim q(z\vert x;\phi)}[ \log p(x\vert z;\theta)]$  basically says that if we sample a $z$ from $q(z\vert x)$, can we really reconstruct the original $x$ with $p(x\vert z)$ ? So, this is a reconstruction objective. Of course, when $q(z\vert x)$ is a complicated distribution,  $z$ can carry more information from $x$, so the reconstruction objective can be higher.
 
 But, when $q(z\vert x)$ is complicated, it can't have a shape close to the prior. Remember,  the prior $p(z)$ is just a standard Gaussian. So the right part $\mathrm{KL}(q(z\vert x;\phi) \vert p(z))$ will output a high value to punish the ELBO when q is complicated.
 
@@ -108,7 +108,7 @@ Oh,  I see. The left part and right part are basically fighting with each other.
 
 In next posts, we are going to discuss how to train generative models with neural networks and back-propagation. And we will further discuss the situation when $z$ is a discrete latent variable.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY0Mjg0NTM4LDMyMDgxNTAwOCwtMTUzNT
-MwNTI5MSwyMTcxMTA0OTAsMTcxMzk4NzIxOSwtMTk5NjExNzE4
-Niw1MzIxNTEwMjgsLTM2MDM4MjIwMV19
+eyJoaXN0b3J5IjpbLTkwOTA2MDYxNywzMjA4MTUwMDgsLTE1Mz
+UzMDUyOTEsMjE3MTEwNDkwLDE3MTM5ODcyMTksLTE5OTYxMTcx
+ODYsNTMyMTUxMDI4LC0zNjAzODIyMDFdfQ==
 -->
