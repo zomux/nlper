@@ -69,6 +69,7 @@ The reason is because the logarithm is a convex function. And now we find a lowe
 $$\log p(x) \ge \mathbb{E}_{z \sim q(z\vert x)}[ \log \frac{p(x,z)}{q(z\vert x)}].$$
 
 Remember our assumption $p(x,z) = p(x\vert z)p(z)$, we just plug it into the equation to make it
+
 $$\log p(x) \ge \mathbb{E}_{z \sim q(z\vert x)}[ \log \frac{p(x\vert z)p(z)}{q(z\vert x)}].$$
 
 Oh, multiplication and division in logarithm, let's decompose them:
@@ -107,7 +108,7 @@ Oh,  I see. The left part and right part are basically fighting with each other.
 
 In next posts, we are going to discuss how to train generative models with neural networks and back-propagation. And we will further discuss the situation when $z$ is a discrete latent variable.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwODkwNjc4MiwtMTUzNTMwNTI5MSwyMT
-cxMTA0OTAsMTcxMzk4NzIxOSwtMTk5NjExNzE4Niw1MzIxNTEw
-MjgsLTM2MDM4MjIwMV19
+eyJoaXN0b3J5IjpbLTIxMzY5OTA0MTIsLTE1MzUzMDUyOTEsMj
+E3MTEwNDkwLDE3MTM5ODcyMTksLTE5OTYxMTcxODYsNTMyMTUx
+MDI4LC0zNjAzODIyMDFdfQ==
 -->
