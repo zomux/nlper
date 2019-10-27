@@ -16,9 +16,12 @@ First, may be we are more familiar with a discriminative model, or we usually ca
 
 In machine learning, a discriminative model does not directly give the label, but the probability of the label, and that is $p(y|x)$ . $x$ is the input data and $y$ is the label. In the case of spam detection, we can say the email is a spam when $p(y=1|x) > 0.5$. We can also be more conservative, and only say a email is spam when $p(y=1|x) > 0.9$. So you see, we have a recall and precision trade-off.
 
+The training objective given a datapoint $(x_d,y_d)$ is that we want to maximize the probability of 
+
 ### Generative model
 
-![variables](https://imgur.com/7s9PNS7.png)
+![variables](https://i.imgur.com/A8nKrSp.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNTYzNjMxNywtMTAyODA5OTA4Nl19
+eyJoaXN0b3J5IjpbLTM1NDQ1NjgyMywtNTI1NjM2MzE3LC0xMD
+I4MDk5MDg2XX0=
 -->
