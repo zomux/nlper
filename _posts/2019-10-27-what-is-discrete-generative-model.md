@@ -24,10 +24,10 @@ Here, we use the logarithm because given multiple datapoints, we can do a summar
 
 ### Generative model
 
-Now as we know the discriminative model and how to train it. We move on to the generative model. In generative model, instead of the output label, we want to know the probability of the input data $p(x)$. Is this awkward? But consider the email spam detection example, if we know a distribution that generates spamming emails $p()$
+Now as we know the discriminative model and how to train it. We move on to the generative model. In generative model, instead of the output label, we want to know the probability of the input data $p(x)$. Is this awkward? But consider the email spam detection example, if we know a distribution that generates spamming emails $p_{\mathrm{spam}}(x;\theta)$. Please note here $\theta$ is still the parameters of this probability model. Then,  given a new email $x_d$, we can just plug in
 
 ![variables](https://i.imgur.com/A8nKrSp.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcwNzc4MDUzLC01MjU2MzYzMTcsLTEwMj
+eyJoaXN0b3J5IjpbMTg5NDcxMzA2LC01MjU2MzYzMTcsLTEwMj
 gwOTkwODZdfQ==
 -->
