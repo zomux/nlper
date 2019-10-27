@@ -53,7 +53,7 @@ $$ p(x=\text{``Amazing discount"}) \\
 
 Next, we introduce a Q distribution, which makes the equation:
 
-$$\log \int p(x,z) dz = \log \int q(z|x) \frac{p(x,z)}{q(x|z)} dz.$$
+$$\log \int p(x,z) dz = \log \int q(z|x) \frac{p(x,z)}{q(z|x)} dz.$$
 
 The template $\int q(z|x) ... dz$ is actually an expectation $\mathbb{E}_{z \sim q(z|x)}[...]$. So the equation can be written in
 
@@ -78,10 +78,10 @@ OMG, we just find that two probabilistic distributions $q(z|x)$ and $p(x|z)$ are
 
 Cool. Let's further clean up the equation:
 
-$$\log p(x) \ge \mathbb{E}_{z \sim q(z|x)}[ \log p(x|z)] + \mathbb{E}_{z \sim q(z|x)}[  \log p(z) - \log q(x|z)].$$
+$$\log p(x) \ge \mathbb{E}_{z \sim q(z|x)}[ \log p(x|z)] + \mathbb{E}_{z \sim q(z|x)}[  \log p(z) - \log q(z|x)].$$
 
-The second half is what we call 
+The second half is what we call [Kullback–Leibler divergence](https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence), or in short, KL divergence, or in short, KL
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzAxOTU4OCwtNTI1NjM2MzE3LC0xMD
-I4MDk5MDg2XX0=
+eyJoaXN0b3J5IjpbLTE2NzkxNDc4NTgsLTUyNTYzNjMxNywtMT
+AyODA5OTA4Nl19
 -->
