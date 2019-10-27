@@ -46,11 +46,11 @@ Simple, right? Then, let's do some surgeries to the log-likelihood. We first mar
 
 $$\log p(x) = \log \int p(x,z) dz.$$
 
-This is easy to understand. Let's say our mail is "Amazing discount", the latent variable only has two cases: $z=\text{``spam''}$ and $z=\text{``not spam''}$. So the probability of this mail is just
+This is easy to understand. Let's say our mail is "Amazing discount", the latent variable only has two cases: $z=\text{"spam"}$ and $z=\text{"spam"}$. So the probability of this mail is just
 
-$$ p(x=\text{``Amazing discount''}) \\
-= p(x=\text{``Amazing discount''}, z=\text{``spam''})  \\
-   +p(x=\text{``Amazing discount''}, z=\text{``not spam''})$$
+$$ p(x=\text{"Amazing discount"}) \\
+= p(x=\text{""Amazing discount"}, z=\text{"spam"})  \\
+   +p(x=\text{"Amazing discount"}, z=\text{"not spam"})$$
 
 Next, we introduce a Q distribution, which makes the equation:
 
@@ -110,6 +110,6 @@ Oh,  I see. The left part and right part are basically fighting with each other.
 
 In next posts, we are going to discuss how to train generative models with neural networks and back-propagation. And we will further discuss the situation when $z$ is a discrete latent variable.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MDc1Mjg3NywtMTk5NjExNzE4Niw1Mz
+eyJoaXN0b3J5IjpbMTgyNzgxNDI1MiwtMTk5NjExNzE4Niw1Mz
 IxNTEwMjgsLTM2MDM4MjIwMV19
 -->
