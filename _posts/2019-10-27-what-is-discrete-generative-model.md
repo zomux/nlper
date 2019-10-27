@@ -95,7 +95,16 @@ Instead of maximizing the log-likelihood, we maximize the lower-bound:
 $$\mathop{\mathrm{argmax}}\limits_{\theta, \phi} \mathrm{ELBO}(x;\theta, \phi) $$
 
 ### Understanding ELBO
+
+The left part of the ELBO $\mathbb{E}_{z \sim q(z|x;\phi)}[ \log p(x|z;\theta)]$  basically
+
+| Input  | Output (label) |
+|--|--|
+| Image  | Whether it's a animal (1 or 0)  |
+| Email | Whether it's a spam (1 or 0) |
+| A sentence | Next word in the sentence (a word) |
+| Voice record | Text (word sequence) |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTUyNTI1OTcsLTUyNTYzNjMxNywtMT
-AyODA5OTA4Nl19
+eyJoaXN0b3J5IjpbMTY4NzY1NDQ4MSwtNTI1NjM2MzE3LC0xMD
+I4MDk5MDg2XX0=
 -->
