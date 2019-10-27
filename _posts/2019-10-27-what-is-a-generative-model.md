@@ -36,7 +36,7 @@ Wait, there is a problem, the model now only has the output $x$, but no input is
 But, the good thing is that we know how to compute a lower-bound of the log-likelihood by introducing another variable $z$. We call it a latent variable, and the probability of $x$ depends on $z$ as illustrated in the diagram. 
 
 
-<img src="https://i.imgur.com/A8nKrSp.png" witdh="60" />
+<img src="https://i.imgur.com/A8nKrSp.png" width="50%" height="50%" align="center" />
 
 When we translate this assumption into equations, it will be
 
@@ -110,6 +110,6 @@ Oh,  I see. The left part and right part are basically fighting with each other.
 
 In next posts, we are going to discuss how to train generative models with neural networks and back-propagation. And we will further discuss the situation when $z$ is a discrete latent variable.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzM2OTU5MDYsNTMyMTUxMDI4LC0zNj
+eyJoaXN0b3J5IjpbLTE0NDkyODY0MjcsNTMyMTUxMDI4LC0zNj
 AzODIyMDFdfQ==
 -->
