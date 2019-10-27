@@ -86,8 +86,10 @@ $$\log p(x) \ge \mathbb{E}_{z \sim q(z|x)}[ \log p(x|z)] - \mathrm{KL}(q(z|x) | 
 
 Anyway, the good news is that when both $q(z|x)$ and $p(z)$ are Gaussians, the KL divergence can be analytically solved. If you are interested, take a look at this stackexchange post: https://stats.stackexchange.com/a/7449 .
 
-So, to compute the lower-bound, we just need to sample a $z$ from $q(z|x)$, and compute 
+So, to compute the lower-bound, we just need to sample a $z$ from $q(z|x)$,  compute the left part $\mathbb{E}_{z \sim q(z|x)}[ \log p(x|z)]$ and the right part, which is KL divergence.
+
+### Understanding ELBO
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIzODU3NDEzLC01MjU2MzYzMTcsLTEwMj
+eyJoaXN0b3J5IjpbLTY5MDcyODc3LC01MjU2MzYzMTcsLTEwMj
 gwOTkwODZdfQ==
 -->
