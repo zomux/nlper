@@ -20,12 +20,12 @@ The training objective given a datapoint $(x_d,y_d)$ is that we want to maximize
 
 $$ \mathop{\mathrm{argmax}}\limits_\theta \log p(y=y_d|x=x_d;\theta) $$
 
-Here, we use the logarithm becu
+Here, we use the logarithm because given multiple datapoints, we can do a summarization on the log-likelihoods instead of production. 
 
 ### Generative model
 
 ![variables](https://i.imgur.com/A8nKrSp.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDIzODY0ODcsLTUyNTYzNjMxNywtMT
-AyODA5OTA4Nl19
+eyJoaXN0b3J5IjpbMTQ4NzMyNzQ5OSwtNTI1NjM2MzE3LC0xMD
+I4MDk5MDg2XX0=
 -->
