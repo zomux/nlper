@@ -102,13 +102,13 @@ The left part of the ELBO $\mathbb{E}_{z \sim q(z\vert x;\phi)}[ \log p(x\vert z
 
 But, when $q(z\vert x)$ is complicated, it can't have a shape close to the prior. Remember,  the prior $p(z)$ is just a standard Gaussian. So the right part $\mathrm{KL}(q(z\vert x;\phi) \vert p(z))$ will output a high value to punish the ELBO when q is complicated.
 
-Oh,  I see. The left part and right part are basically fighting with each other. To summarize two scenarios, check this table:
+Oh,  I see. The left part and right part are basically fighting with each other. To summarize two scenarios, check this figure:
 
 <p><img src="https://imgur.com/1msBc4Y.png" width="80%" style="margin:auto;" /></p>
 
 In next posts, we are going to discuss how to train generative models with neural networks and back-propagation. And we will further discuss the situation when $z$ is a discrete latent variable.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwOTA2MDYxNywzMjA4MTUwMDgsLTE1Mz
+eyJoaXN0b3J5IjpbMTg3ODYzMDkyNSwzMjA4MTUwMDgsLTE1Mz
 UzMDUyOTEsMjE3MTEwNDkwLDE3MTM5ODcyMTksLTE5OTYxMTcx
 ODYsNTMyMTUxMDI4LC0zNjAzODIyMDFdfQ==
 -->
