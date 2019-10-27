@@ -31,7 +31,7 @@ So, because the probability distribution $p(x)$ try to capture the generation pr
 
 $$\mathop{\mathrm{argmax}}\limits_\theta \log p(x=x_d;\theta) $$
 
-Wait, there is a problem, the model now only has the output $x$, but no input is provided. For example, it $x$ is an image, then we are basically predicting all the pixels in the image. So are we going to create a model that maps nothing to $x$ ? Hmm, we have no idea on how to compute such a model and it's log-likelihood.
+Wait, there is a problem, the model now only has the output $x$, but no input is provided. For example, it $x$ is an image, then we are basically predicting all the pixels in the image. So are we going to create a model that maps nothing to $x$ ? Hmm, we have no idea on how to compute such a model and its log-likelihood.
 
 But, the good thing is that we know how to compute a lower-bound of the log-likelihood by introducing another variable $z$. We call it a latent variable, and the probability of $x$ depends on $z$ as illustrated in the diagram. 
 
@@ -107,6 +107,7 @@ Oh,  I see. The left part and right part are basically fighting with each other.
 
 In next posts, we are going to discuss how to train generative models with neural networks and back-propagation. And we will further discuss the situation when $z$ is a discrete latent variable.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE3MTEwNDkwLDE3MTM5ODcyMTksLTE5OT
-YxMTcxODYsNTMyMTUxMDI4LC0zNjAzODIyMDFdfQ==
+eyJoaXN0b3J5IjpbLTE1MzUzMDUyOTEsMjE3MTEwNDkwLDE3MT
+M5ODcyMTksLTE5OTYxMTcxODYsNTMyMTUxMDI4LC0zNjAzODIy
+MDFdfQ==
 -->
