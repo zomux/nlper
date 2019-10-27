@@ -15,6 +15,7 @@ First, may be we are more familiar with a discriminative model, or we usually ca
 | A sentence | Next word in the sentence (a word) |
 | Voice record | Text (word sequence) |
 
+
 In machine learning, a discriminative model does not directly give the label, but the probability of the label, and that is $p(y\vert x)$ . $x$ is the input data and $y$ is the label. In the case of spam detection, we can say the email is a spam when $p(y=1\vert x) > 0.5$. We can also be more conservative, and only say a email is spam when $p(y=1\vert x) > 0.9$. So you see, we have a recall and precision trade-off.
 
 The training objective given a datapoint $(x_d,y_d)$ is that we want to maximize the probability of $y_d$ when we observe $x_d$, or here we call it likelihood. It can be written in
@@ -110,5 +111,5 @@ Oh,  I see. The left part and right part are basically fighting with each other.
 
 In next posts, we are going to discuss how to train generative models with neural networks and back-propagation. And we will further discuss the situation when $z$ is a discrete latent variable.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2ODM4NTU1MiwtMzYwMzgyMjAxXX0=
+eyJoaXN0b3J5IjpbLTEwMDkwNjY5NzQsLTM2MDM4MjIwMV19
 -->
