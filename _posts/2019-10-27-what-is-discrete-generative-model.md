@@ -74,8 +74,8 @@ Oh, multiplication and division in logarithm, let's decompose them:
 
 $$\log p(x) \ge \mathbb{E}_{z \sim q(z|x)}[ \log p(x|z) + \log p(z) - \log q(x|z)].$$
 
-
+OMG, we just find that 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMDE1NDIyMywtNTI1NjM2MzE3LC0xMD
-I4MDk5MDg2XX0=
+eyJoaXN0b3J5IjpbMzU4MjU3MDQyLC01MjU2MzYzMTcsLTEwMj
+gwOTkwODZdfQ==
 -->
