@@ -36,7 +36,7 @@ Wait, there is a problem, the model now only has the output $x$, but no input is
 But, the good thing is that we know how to compute a lower-bound of the log-likelihood by introducing another variable $z$. We call it a latent variable, and the probability of $x$ depends on $z$ as illustrated in the diagram. 
 
 
-< style="text-align:center;"><img src="https://i.imgur.com/A8nKrSp.png" width="30%" height="30%" /></p>
+<p style="text-align:center;"><img src="https://i.imgur.com/A8nKrSp.png" width="30%" height="30%" /></p>
 
 When we translate this assumption into equations, it will be
 
@@ -46,11 +46,11 @@ Simple, right? Then, let's do some surgeries to the log-likelihood. We first mar
 
 $$\log p(x) = \log \int p(x,z) dz.$$
 
-This is easy to understand. Let's say our mail is $x=\text{``Amazing discount"}$, the latent variable only has two cases: $z=\text{``spam"}$ and $z=\text{``not spam"}$. So the probability of this mail is just
+This is easy to understand. Let's say our mail is $x=\text{``Amazing discount''}$, the latent variable only has two cases: $z=\text{``spam''}$ and $z=\text{``not spam''}$. So the probability of this mail is just
 
 $$ p(x=\text{``Amazing discount''}) \\
-= p(x=\text{``Amazing discount''}, z=\text{``spam"})  \\
-   +p(x=\text{``Amazing discount''}, z=\text{``not spam"})$$
+= p(x=\text{``Amazing discount''}, z=\text{``spam''})  \\
+   +p(x=\text{``Amazing discount''}, z=\text{``not spam''})$$
 
 Next, we introduce a Q distribution, which makes the equation:
 
@@ -110,6 +110,6 @@ Oh,  I see. The left part and right part are basically fighting with each other.
 
 In next posts, we are going to discuss how to train generative models with neural networks and back-propagation. And we will further discuss the situation when $z$ is a discrete latent variable.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMjg5MzcwNiw1MzIxNTEwMjgsLTM2MD
-M4MjIwMV19
+eyJoaXN0b3J5IjpbLTE5OTYxMTcxODYsNTMyMTUxMDI4LC0zNj
+AzODIyMDFdfQ==
 -->
