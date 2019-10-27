@@ -80,8 +80,12 @@ Cool. Let's further clean up the equation:
 
 $$\log p(x) \ge \mathbb{E}_{z \sim q(z|x)}[ \log p(x|z)] + \mathbb{E}_{z \sim q(z|x)}[  \log p(z) - \log q(z|x)].$$
 
-The second half is what we call [Kullback–Leibler divergence](https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence), or in short, KL divergence, or in short, KL
+The second half is what we call [Kullback–Leibler divergence](https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence), or in short, KL divergence, or in short, KL. It is also called relative entropy. Therefore, we usually write the lower bound equation as
+
+$$\log p(x) \ge \mathbb{E}_{z \sim q(z|x)}[ \log p(x|z)] - \mathrm{KL}(q(z|x) | p(z)).$$
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzkxNDc4NTgsLTUyNTYzNjMxNywtMT
-AyODA5OTA4Nl19
+eyJoaXN0b3J5IjpbLTc1NjM0ODAwNCwtNTI1NjM2MzE3LC0xMD
+I4MDk5MDg2XX0=
 -->
