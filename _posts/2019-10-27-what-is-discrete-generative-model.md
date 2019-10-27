@@ -45,8 +45,8 @@ Simple, right? Then, let's do some surgeries to the log-likelihood. We first mar
 
 $$\log p(x) = \log \int p(x,z) dz.$$
 
-This is easy to understand. Let's say
+This is easy to understand. Let's say our mail is $x=\text{``amazon discount 99c"}$, the latent variable only has two cases: $z=\text{``spam"}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzgzNDQ5ODYsLTUyNTYzNjMxNywtMT
-AyODA5OTA4Nl19
+eyJoaXN0b3J5IjpbLTQ0NDA3OTExNiwtNTI1NjM2MzE3LC0xMD
+I4MDk5MDg2XX0=
 -->
