@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What is A Discrete Generative Model and How to Learn It
+title: What is A Generative Model and How to Learn It
 ---
 
 ### Discriminative model
@@ -96,7 +96,9 @@ $$\mathop{\mathrm{argmax}}\limits_{\theta, \phi} \mathrm{ELBO}(x;\theta, \phi) $
 
 ### Understanding ELBO
 
-The left part of the ELBO $\mathbb{E}_{z \sim q(z|x;\phi)}[ \log p(x|z;\theta)]$  basically says that if we sample a $z$ from $q(z|x)$, can we really reconstruct the original $x$ with $p(x|z)$ ? So, this is a reconstruction objective. Of course, when q(z|x) is a complicated distribution, then $z$ can carry more information,
+The left part of the ELBO $\mathbb{E}_{z \sim q(z|x;\phi)}[ \log p(x|z;\theta)]$  basically says that if we sample a $z$ from $q(z|x)$, can we really reconstruct the original $x$ with $p(x|z)$ ? So, this is a reconstruction objective. Of course, when q(z|x) is a complicated distribution, then $z$ can carry more information from $x$, so the reconstruction objective can be higher.
+
+But, when $q(z|x)$ is comp
 
 | Input  | Output (label) |
 |--|--|
@@ -105,6 +107,6 @@ The left part of the ELBO $\mathbb{E}_{z \sim q(z|x;\phi)}[ \log p(x|z;\theta)]$
 | A sentence | Next word in the sentence (a word) |
 | Voice record | Text (word sequence) |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NTA5OTkyLC01MjU2MzYzMTcsLTEwMj
-gwOTkwODZdfQ==
+eyJoaXN0b3J5IjpbLTMwNzQ0ODU0MSwtNTI1NjM2MzE3LC0xMD
+I4MDk5MDg2XX0=
 -->
