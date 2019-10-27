@@ -14,9 +14,7 @@ First, may be we are more familiar with a discriminative model, or we usually ca
 | A sentence | Next word in the sentence (a word) |
 | Voice record | Text (word sequence) |
 
-In machine learning, a discriminative model does not directly give the label, but the probability of the label.
-
-$$ 
+In machine learning, a discriminative model does not directly give the label, but the probability of the label, and that is $p(y|x)$ . $x$ is the input data and $y$ is the label. In the case of spam detection, we can say the email is a spam when $p(y=1|x) > 0.5$. 
 
 
 
@@ -24,6 +22,5 @@ $$
 
 ![variables](https://imgur.com/7s9PNS7.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDU4MTA2MjEsLTEwMjgwOTkwODZdfQ
-==
+eyJoaXN0b3J5IjpbMTc2MDUzOTQ3MSwtMTAyODA5OTA4Nl19
 -->
