@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What is A Discrete generative model and how to learn it
+title: What is A Discrete Generative Model and How to Learn It
 ---
 
 ### Discriminative model
@@ -18,12 +18,14 @@ In machine learning, a discriminative model does not directly give the label, bu
 
 The training objective given a datapoint $(x_d,y_d)$ is that we want to maximize the probability of $y_d$ when we observe $x_d$, or here we call it likelihood. It can be written in
 
-$$ \mathop{\mathrm{argmax}}\limits_\theta $$
+$$ \mathop{\mathrm{argmax}}\limits_\theta \log p(y=y_d|x=x_d;\theta) $$
+
+Here, we use the logarithm becu
 
 ### Generative model
 
 ![variables](https://i.imgur.com/A8nKrSp.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODc2MjE0NjksLTUyNTYzNjMxNywtMT
+eyJoaXN0b3J5IjpbLTExMDIzODY0ODcsLTUyNTYzNjMxNywtMT
 AyODA5OTA4Nl19
 -->
