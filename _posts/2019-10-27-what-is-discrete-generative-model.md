@@ -88,12 +88,14 @@ Anyway, the good news is that when both $q(z|x)$ and $p(z)$ are Gaussians, the K
 
 So, to compute the lower-bound, we just need to sample a $z$ from $q(z|x)$,  compute the left part $\mathbb{E}_{z \sim q(z|x)}[ \log p(x|z)]$ and the right part, which is KL divergence. Because this conclusion is so important, we give the equation a name, we call it evidence lower-bound, or in short, ELBO. Suppose the two conditional distributions are parameterized by $\theta$ and $\phi$, then ELBO is defined as
 
-$$\mathrm{ELBO}(x;\theta, \phi) = \mathbb{E}_{z \sim q(z|x;\theta)}[ \log p(x|z;\phi)] - \mathrm{KL}(q(z|x;\theta) | p(z)).$$
+$$\mathrm{ELBO}(x;\theta, \phi) = \mathbb{E}_{z \sim q(z|x;\phi)}[ \log p(x|z;\theta)] - \mathrm{KL}(q(z|x;\phi) | p(z)).$$
 
-Inst
+Instead of maximizing the log-likelihood, we maximize the lower-bound:
+
+$$\mathop{\mathrm{argmax}}\limits_{\theta, \phi} \mathrm{ELBO}(x;\theta, \phi) $$
 
 ### Understanding ELBO
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzI4NDAwNywtNTI1NjM2MzE3LC0xMD
-I4MDk5MDg2XX0=
+eyJoaXN0b3J5IjpbLTEzNTUyNTI1OTcsLTUyNTYzNjMxNywtMT
+AyODA5OTA4Nl19
 -->
