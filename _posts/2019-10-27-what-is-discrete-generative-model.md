@@ -53,8 +53,10 @@ $$ p(x=\text{``Amazing discount"}) \\
 
 Next, we introduce a Q distribution, which makes the equation:
 
-$$\log \int p(x,z) dz = \log \int q(z|x) \frac{p(x,z)}{q} dz.$$
+$$\log \int p(x,z) dz = \log \int q(z|x) \frac{p(x,z)}{q(x|z)} dz.$$
+
+The template $\int q(z|x) ... dz$ is actually an expectation \
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE3NjI2MDYwLC01MjU2MzYzMTcsLTEwMj
+eyJoaXN0b3J5IjpbNzA0NjkyOTA1LC01MjU2MzYzMTcsLTEwMj
 gwOTkwODZdfQ==
 -->
