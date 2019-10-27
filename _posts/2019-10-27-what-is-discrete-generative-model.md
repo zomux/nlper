@@ -36,10 +36,12 @@ But, the good thing is that we know how to compute a lower-bound of the log-like
 
 $$p(y,z) = p(y|z) p(z).$$
 
-Simply,
+Simple, right? Then, let's do some surgeries to the log-likelihood. W
+
+$$\log p(x) = \log $$
 
 ![variables](https://i.imgur.com/A8nKrSp.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNTA0MzI4LC01MjU2MzYzMTcsLTEwMj
+eyJoaXN0b3J5IjpbODE3Mzc3MTE3LC01MjU2MzYzMTcsLTEwMj
 gwOTkwODZdfQ==
 -->
