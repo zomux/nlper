@@ -1,5 +1,3 @@
-# How shall tech companies navigate the coronavirus pandemic
-
 ------------------------------
 TLDR: 
 
@@ -42,13 +40,13 @@ Consumer spending is going to recover at some point, although not 100 percent. T
 
 Note that the recovery of spending may not lead to immediate economic recovery. The latter has a lot of things to do with debt.
 
-### Long-opportunity: prepare for a new world
+### Long-term opportunity: prepare for a new world
 
 Different from the swine flu, which was somehow covered by the shadow of the 2008 financial crisis, the coronavirus literally crashed the global economy. After this crisis, almost for certain, countries, local governments, corporations, and individuals will raise the question: why are we so fragile when the virus hits? How shall we change in order to be not so fragile during the next pandemic?
 
 Unlike the Spanish flu 100 years ago, thanks to the internet, not all businesses stop when participating in social distancing. So technology has already done a good job. Next, governments and corporations will seek more help from the technology side to make them more robust when the next wave of virus hits. I believe this will be a long-term trend for the next 10 years, which is also a vast opportunity for tech companies.
 
-Here, I list some ideas in my thought, but I don't think this is an exhausting list. And maybe not all of them are correct.
+Here, I list some ideas in my mind, but I don't think this is an exhausting list. And maybe not all of them are correct.
 
 **Deglobalization** In this pandemic, we see countries after countries shut down their borders just to avoid new virus being imported. As people started to see how their job can be done without traveling, they will also travel less in the future. On the other side, companies will learn the benefits of having a local partnership so that the supply chain remains intact when another country is in crisis. Countries may impose travel restrictions much more often when a hint of disease spreading is found in another nation.
 
