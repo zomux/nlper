@@ -14,7 +14,7 @@ The current on-going coronavirus pandemic is creating a crisis for a significant
 
 I wrote this article as I really wanted to share some thoughts on the event. From my point of view, the current health-care disaster is both a short-term crisis and long-term opportunity for tech firms. Companies shall see how they can adapt their business plan to navigate the pandemic.
 
-### Short-term crsis: earning slump
+### Short-term crisis: earning slump
 
 Most of the technology companies will be directly hit by the drop in spending. It happens on the consumer side and also on the corporate side.
 
