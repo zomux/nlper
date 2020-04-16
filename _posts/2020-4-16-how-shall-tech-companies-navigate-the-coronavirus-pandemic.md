@@ -20,7 +20,7 @@ Most of the technology companies will be directly hit by the drop in spending. I
 
 In the economic downturn, as consumers are spending less money, income will be damaged. People are less likely to upgrade their smartphones just because the new one has a better camera. The logic will be the same for other computer hardware. For internet companies depending on advertisement earnings, as corporations start to correct their budget for ads, the unit price for an ad presence is likely to drop.
 
-How shall companies endure this earning crisis? Although most of the big firms already have experience on how to deal with it since the 2008 financial crisis. An obvious plan to cut back investment, hire fewer people and drop some non-performing projects, just like a usual crisis preparing strategy. 
+How shall companies endure this earning crisis? Although most of the big firms already have knowledge on how to deal with it since the 2008 financial crisis. An obvious plan is to cut back investment, hire fewer people and drop some non-performing projects, just like a usual crisis preparing strategy. 
 
 However, one concern is that such a standard treatment is going to largely reduce the competitiveness of the business. The growth of the business is likely to stay slow until the economy fully recovers to its original shape.
 
