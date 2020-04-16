@@ -32,7 +32,7 @@ In contrast, technology companies that ride this long-term trend can be more com
 
 ### Why do I think the virus crisis is short-term
 
-Today is Apr 16th. The death toll of coronavirus is around 130K globally. From this number, it's reasonable to believe that the current virus is unlikely to become another Spanish flu, which killed 17-100 million people.  The most similar recent virus shall be the swine flu that began in November 2017. In August 2018, WHO declares the end of the epidemic. I believe the current virus epidemic will also be a short-term one, which is going to last for a year. 
+Today is Apr 16th. The death toll of coronavirus is around 130K globally. From this number, it's reasonable to believe that the current virus is unlikely to become another Spanish flu, which killed 17-100 million people.  The most similar recent virus shall be the swine flu that began in November 2018. In August 2019, WHO declares the end of the epidemic. I believe the current virus epidemic will also be a short-term one, which is going to last for a year. 
 
 The current on-going crisis is not and shall not be compared to the 2008 financial crisis. The 2008 crisis is triggered by the financial system and hits the wall street. The current economic crisis is triggered by consumer spending and hits the main street.
 
