@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Raphael Shu
+title: Raphael Shu Profile
 ---
 
 ## Bio
@@ -56,5 +56,4 @@ TBA
 
 ## Links
 
-- Old Bio page in The University of Tokyo
-  - https://www.nlab.ci.i.u-tokyo.ac.jp/~shu/
+- [Old Bio page in The University of Tokyo](https://www.nlab.ci.i.u-tokyo.ac.jp/~shu/)
