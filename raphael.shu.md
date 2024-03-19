@@ -33,25 +33,25 @@ TBA
 ## Codes
 
 - tree2code: Learning Discrete Syntactic Codes for Structural Diverse Translation
-    - https://github.com/zomux/tree2code
+  - https://github.com/zomux/tree2code
 - nmtlab: A simplified framework for neural machine translation
-    - https://github.com/zomux/nmtlab
+  - https://github.com/zomux/nmtlab
 - neuralcompressor ![GitHub stars](https://img.shields.io/github/stars/zomux/neuralcompressor.svg)
-    - Compress word embeddings
-    - https://github.com/zomux/neuralcompressor
+  - Compress word embeddings
+  - https://github.com/zomux/neuralcompressor
 - deepy ![GitHub stars](https://img.shields.io/github/stars/zomux/deepy.svg)
- - Highly extensible deep learning framework based on Theano
- - [https://github.com/zomux/deepy](https://github.com/zomux/deepy)
+  - Highly extensible deep learning framework based on Theano
+  - [https://github.com/zomux/deepy](https://github.com/zomux/deepy)
 - neuralmt
- - Neural machine translation modelling tookit
- - [https://github.com/zomux/neuralmt](https://github.com/zomux/neuralmt)
+  - Neural machine translation modelling tookit
+  - [https://github.com/zomux/neuralmt](https://github.com/zomux/neuralmt)
 - deepy-draw
- - An implementation of DRAW with deepy framework
- - ![](https://github.com/zomux/deepy-draw/raw/master/plots/mnist-animation.gif)
- - [https://github.com/zomux/deepy-draw/](https://github.com/zomux/deepy-draw/)
+  - An implementation of DRAW with deepy framework
+  - ![](https://github.com/zomux/deepy-draw/raw/master/plots/mnist-animation.gif)
+  - [https://github.com/zomux/deepy-draw/](https://github.com/zomux/deepy-draw/)
 - JRNNLM
- - RNNLM implementation in JAVA
- - [https://github.com/zomux/jrnnlm](https://github.com/zomux/jrnnlm)
+  - RNNLM implementation in JAVA
+  - [https://github.com/zomux/jrnnlm](https://github.com/zomux/jrnnlm)
 
 
 ## Links
