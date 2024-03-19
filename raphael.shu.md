@@ -9,7 +9,7 @@ Raphael Shu is a Senior Applied Scientist at Amazon AWS GenAI. He received his P
 
 
 ## Research Interests
-- LLM-based Agents 
+- LLM-based Agents
 - Reinforcement Learning for Generative Models
 - Federated / Distributed Learning
 
@@ -28,7 +28,7 @@ Raphael Shu is a Senior Applied Scientist at Amazon AWS GenAI. He received his P
 
 ## Papers
 
-TBA
+[Google Scholar page](https://scholar.google.co.jp/citations?user=qT2aZtsAAAAJ&hl=en)
 
 ## Codes
 
