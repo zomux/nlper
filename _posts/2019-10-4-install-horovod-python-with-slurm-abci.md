@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Install horovod for PyTorch to work with slurm on ABCI
+excerpt: "Step-by-step guide to setting up Horovod with PyTorch for multi-node, multi-GPU training on ABCI's SLURM system, including solutions for common compatibility issues."
 ---
 
 Horovod is a great tool for multi-node, multi-gpu gradient synchronization. The official ABCI document does give a guide on running Tensorflow with multiple nodes, which can be found here [https://docs.abci.ai/en/apps/tensorflow/](https://docs.abci.ai/en/apps/tensorflow/).  However, to make horovod run with PyTorch and work with multiple nodes is not that straight-forward.

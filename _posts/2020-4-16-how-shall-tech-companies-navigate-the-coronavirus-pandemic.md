@@ -1,4 +1,9 @@
-------------------------------
+---
+layout: post
+title: How shall tech companies navigate the coronavirus pandemic
+excerpt: "The coronavirus imposes short-term earning crisis, but creates long-term investment opportunities as governments, corporations and individuals adapt to be more robust against similar situations."
+---
+
 TLDR: 
 
 - The coronavirus imposes short-term earning crisis
@@ -6,7 +11,6 @@ TLDR:
 - Such adaptation leads to long-term changings affecting how businesses are operated worldly, in a way that we didn't see in the past decade
 - Technology companies shall consider and invest in these trends to remain competitive, rather than being fully defensive
 
-----
 
 
 

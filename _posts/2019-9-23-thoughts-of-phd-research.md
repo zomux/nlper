@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Thoughts of PhD research
+excerpt: "Reflections from a 3-year PhD journey in NLP and machine learning, with advice for new students on finding research goals and navigating the competitive field."
 ---
-
-
 
 At the end of my 3-year PhD, I want to record some of my thoughts on the researches in natural langauge processing and machine learning. Especially, I want to help those new students who are just started their voyage in the (red) ocean of machine learning. Help them to efficiently find their goal of research, and how to reach the goal.
 

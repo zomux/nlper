@@ -35,7 +35,7 @@ layout: default
     {% for post in site.related_posts limit:3 %}
       <li>
         <h3>
-          <a href="{{ post.url }}">
+          <a href="{{ post.url | relative_url }}">
             {{ post.title }}
             <small>{{ post.date | date_to_string }}</small>
           </a>
@@ -45,12 +45,4 @@ layout: default
   </ul>
 </div>
 
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-      processEscapes: true
-    }
-  });
-</script>
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+

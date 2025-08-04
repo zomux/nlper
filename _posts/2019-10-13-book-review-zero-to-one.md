@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Book Review | Zero to One&#58; Notes on Startups, or How to Build the Future
+excerpt: "Peter Thiel's insights on successful startups: seven key factors including tech breakthrough, timing, monopoly in small markets, right team, distribution, durability, and uniqueness."
 ---
 
 ### Zero to One: Notes on Startups, or How to Build the Future

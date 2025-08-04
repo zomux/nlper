@@ -1,5 +1,10 @@
 # Dependencies
+markdown:         kramdown
 highlighter:      rouge
+excerpt_separator: "<!--more-->"
+
+# Plugins
+plugins:          [jekyll-paginate]
 
 # Permalinks
 permalink:        pretty

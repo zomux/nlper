@@ -1,6 +1,7 @@
 ---
 layout: post
 title: What is A Generative Model and How to Learn It
+excerpt: "Learn the difference between discriminative and generative models, and understand how generative models work through practical examples and mathematical foundations."
 ---
 
 ### Discriminative model
