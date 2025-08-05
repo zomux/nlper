@@ -11,8 +11,8 @@ permalink:        pretty
 
 # Setup
 title:            NLPer
-tagline:          'Natural Language Processing and Machine Learning'
-description:      'Natural Language Processing and Machine Learning. Excited in learning new things. Made by <a href="https://twitter.com/raphaelshu" target="_blank">@raphaelshu</a>.'
+tagline:          'Building Internet-Scale Intelligence through Natural Language'
+description:      'Natural Language Processing, AI Agents, Multi-Agent and Internet-Scale Intelligence and Internet-Scale Collaboration. Excited in learning new things. Made by <a href="https://twitter.com/raphaelshu" target="_blank">@raphaelshu</a>.'
 url:              http://nlper.com
 baseurl:          /
 
