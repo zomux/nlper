@@ -252,3 +252,13 @@ a.sidebar-nav-item:focus {
 .disqus-footer {
   display: none;
 }
+
+/* Feature image styling on the blog list */
+.post-feature {
+  display: block;
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  object-position: center;
+  margin: 0.5rem 0 0.75rem;
+}

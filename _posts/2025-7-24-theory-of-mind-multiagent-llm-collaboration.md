@@ -2,6 +2,7 @@
 layout: post
 title: Theory of Mind in Multi-Agent LLM Collaboration -  An Important Aspect on Collective Intelligence
 excerpt: "An exploration of how theory of mind mechanisms enable sophisticated collaboration between LLM-driven agents, examining cognitive architectures, recursive belief modeling, and the emergence of collective problem-solving capabilities."
+image: /public/images/2025-7-24-theory-of-mind-multiagent-llm-collaboration.png
 ---
 
 

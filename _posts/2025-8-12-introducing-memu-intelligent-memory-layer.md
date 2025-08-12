@@ -2,6 +2,7 @@
 layout: post
 title: Introducing MemU — An Intelligent Memory Layer for AI Companions
 excerpt: "MemU treats memory as a hierarchical file system with an autonomous memory agent that writes, links, revises, and prioritizes what matters over time—purpose-built for AI companions."
+image: /public/images/2025-8-12-memu-lets-go.png
 ---
 
 ![MemU — Let's Go](/public/images/2025-8-12-memu-lets-go.png)

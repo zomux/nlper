@@ -14,7 +14,12 @@ title: Home
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
-    {{ post.excerpt }}
+    {% comment %}Feature image only from front matter{% endcomment %}
+    {% if post.image %}
+      <a href="{{ post.url | relative_url }}"><img class="post-feature" src="{{ post.image | relative_url }}" alt="{{ post.title }}" /></a>
+    {% endif %}
+
+    {{ post.excerpt | strip_html }}
     <a href="{{ post.url | relative_url }}">Read more &rarr;</a>
   </div>
   {% endfor %}
